@@ -10,7 +10,7 @@
 
 | repo_link |      name     |  date   |
 |----------|:-------------:|------:|
-|          |               |       |  
+|[read 1](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-01)|Read: Class 01|29-11-2020|  
 |          |               |       |  
 |          |               |       |  
 |          |               |       |  
