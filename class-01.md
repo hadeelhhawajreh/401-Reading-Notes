@@ -1,5 +1,9 @@
                                                                                                   
-## Big O notation ## is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
+## Big O notation  is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
+
+
+![o](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvhmflwpYAagTV4k3WKz3Lj3BH8i0pvc63jA&usqp=CAU)
+
 
 1. **O(1)**
 
@@ -25,6 +29,8 @@ bool ContainsValue(IList<string> elements, string value)
     return false;
 }
 ```
+
+![o2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-tjS6FtIhCG1ZDPckXhnZIOUVT_q4jWiGg&usqp=CAU)
 3. **O(N2)**
 
 *O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. Deeper nested iterations will result in O(N3), O(N4) etc.*
@@ -57,4 +63,7 @@ int Fibonacci(int number)
     return Fibonacci(number - 2) + Fibonacci(number - 1);
 }
 ```
+
+
+![o3](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3StSPOeFJD8OosriZGSuzx2BAYnRxn-L9TQ&usqp=CAU)
   
