@@ -1,4 +1,4 @@
-# Readings: Testing and Modules
+###### Readings: Testing and Modules
 
 **Unit tests** are some pieces of code to exercise the input, the output and the behaviour of your code. You can write them anytime you want.
 But *Test-Driven Development*
@@ -26,3 +26,24 @@ One of the things that amaze me about TDD is how we can grow our software design
 When we are writing tests we are forced to think about the design first and how we can break it into small pieces.
 
 ![img](https://miro.medium.com/max/875/1*dTd_0x8gdefpRt9tUtekPQ.png)
+
+# Recursion
+
++ *What is Recursion?*
+   The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.
+   Using recursive algorithm, certain problems can be solved quite easily. 
+
+
+```
+int fact(int n)
+{
+    if (n < = 1) // base case
+        return 1;
+    else    
+        return n*fact(n-1);    
+}
+```
++ *What is base condition in recursion? *
+   In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems. 
+   
+   
