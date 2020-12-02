@@ -67,3 +67,32 @@ output -->
   is a  car worth $100.00.
   is a  car worth $100.00.
  ```
+ 
+ Thinking Recursively in Python
+
+
+ ![thinking](https://files.realpython.com/media/Thinking-Recursively-in-Python_Watermarked.1825397c00ea.jpg)
+ Problems (in life and also in computer science) can often seem big and scary. But if we keep chipping away at them, more often than not we can break them down into smaller chunks trivial enough to solve. This is the essence of thinking recursively, and my aim in this article is to provide you, my dear reader, with the conceptual tools necessary to approach problems from this recursive point of view.
+
+Together, we’ll learn how to work with recursion in our Python programs by mastering concepts such as recursive functions and recursive data structures. We’ll also talk about maintaining state during recursion and avoiding recomputation by caching results. This is going to be a lot of fun. Onwards and upwards!
+
+```
+houses = ["Eric's house", "Kenny's house", "Kyle's house", "Stan's house"]
+
+# Each function call represents an elf doing his work 
+def deliver_presents_recursively(houses):
+    # Worker elf doing his work
+    if len(houses) == 1:
+        house = houses[0]
+        print("Delivering presents to", house)
+
+    # Manager elf doing his work
+    else:
+        mid = len(houses) // 2
+        first_half = houses[:mid]
+        second_half = houses[mid:]
+
+        # Divides his work among two elves
+        deliver_presents_recursively(first_half)
+        deliver_presents_recursively(second_half)
+        ```
