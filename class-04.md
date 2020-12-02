@@ -95,4 +95,17 @@ def deliver_presents_recursively(houses):
         # Divides his work among two elves
         deliver_presents_recursively(first_half)
         deliver_presents_recursively(second_half)
-        ```
+```
+
+```
+def factorial_recursive(n):
+    # Base case: 1! = 1
+    if n == 1:
+        return 1
+
+    # Recursive case: n! = n * (n-1)!
+    else:
+        return n * factorial_recursive(n-1)
+```
+
+![img](https://files.realpython.com/media/stack.9c4ba62929cf.gif)
