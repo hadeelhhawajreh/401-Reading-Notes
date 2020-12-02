@@ -12,9 +12,9 @@
 |----------|:-------------:|------:|
 |[read 1](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-01)|Read: Class 01|29-11-2020|  
 |[read 2](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-02)|Read: Class 02|30-11-2020|  
-|[read 3](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-03)|Read: Class 02|1-12-2020|  
-|[read 4](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-04)|Read: Class 02|2-12-2020|  
-|          |               |       |  
+|[read 3](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-03)|Read: Class 03|1-12-2020|  
+|[read 4](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-04)|Read: Class 04|2-12-2020|  
+|[read 5](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-05)|Read: Class 05|3-12-2020|  
 |          |               |       |  
 |          |               |       |  
 |          |               |       |  
