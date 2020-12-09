@@ -1,9 +1,13 @@
 
-### Enriching Your Python Classes With Dunder (Magic, Special) Methods
 
 
 
 ![img](https://dbader.org/static/figures/python-classes-magic-methods.png)
+
+
+
+### Enriching Your Python Classes With Dunder (Magic, Special) Methods
+
 
 
 **What Are Dunder Methods?**
