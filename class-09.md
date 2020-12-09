@@ -68,3 +68,18 @@ def __reversed__(self):
 ```
 
 + *Operator Overloading for Comparing Accounts: __eq__, __lt__*
+
+I use the functools.total_ordering decorator which allows me to take a shortcut, only implementing __eq__ and __lt__:
+
+from functools import total_ordering
+```
+@total_ordering
+class Account:
+    # ... (see above)
+
+    def __eq__(self, other):
+        return self.balance == other.balance
+
+    def __lt__(self, other):
+        return self.balance < other.balance
+```
