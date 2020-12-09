@@ -83,3 +83,10 @@ class Account:
     def __lt__(self, other):
         return self.balance < other.balance
 ```
+
+
+**What is probability?
+At the most basic level, probability seeks to answer the question, “What is the chance of an event happening?” An event is some outcome of interest. To calculate the chance of an event happening, we also need to consider all the other events that can occur. The quintessential representation of probability is the humble coin toss. In a coin toss the only events that can happen are:
+Flipping a heads
+Flipping a tails
+ 
