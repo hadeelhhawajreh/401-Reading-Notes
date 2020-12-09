@@ -28,7 +28,43 @@ It’s common practice in Python to provide a string representation of your obje
 2. __str__: The “informal” or nicely printable string representation of an object. This is for the enduser.
 
 
+
+```
+class Account:
+    # ... (see above)
+
+    def __repr__(self):
+        return 'Account({!r}, {!r})'.format(self.owner, self.amount)
+
+    def __str__(self):
+        return 'Account of {} with starting amount: {}'.format(
+            self.owner, self.amount)
+
+```
+
 + *Iteration: __len__, __getitem__, __reversed__*
 In order to iterate over our account object I need to add some transactions. So first, I’ll define a simple method to add transactions. I’ll keep it simple because this is just setup code to explain dunder methods, and not a production-ready accounting system:
+
+
+```
+class Account:
+    # ... (see above)
+
+    def __len__(self):
+        return len(self._transactions)
+
+    def __getitem__(self, position):
+        return self._transactions[position]
+```
+
+
++ *To iterate over transactions in reversed order you can implement the __reversed__ special method:*
+```
+def __reversed__(self):
+    return self[::-1]
+
+>>> list(reversed(acc))
+[30, -20, 50, -10, 20]
+```
 
 + *Operator Overloading for Comparing Accounts: __eq__, __lt__*
