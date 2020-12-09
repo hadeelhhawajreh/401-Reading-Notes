@@ -18,7 +18,7 @@
 |[read 6](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-06)|Read: Class 06|6-12-2020|  
 |[read 7](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-07)|Read: Class 07|7-12-2020|  
 |[read 8](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-08)|Read: Class 08|8-12-2020|  
-|          |               |       |  
+|[read 9](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-09)|Read: Class 08|9-12-2020|  
 |          |               |       |  
 |          |               |       |  
 
