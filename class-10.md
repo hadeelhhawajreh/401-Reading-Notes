@@ -47,3 +47,5 @@ This means that the first item in the queue will be the first item out of the qu
 
 This means that the last item in the queue will be the last item out of the queue.
 
+
+![img](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/images/Queue.PNG)
