@@ -21,5 +21,5 @@
 |[read 9](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-09)|Read: Class 98|9-12-2020|  
 |[read 10](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-10)|Read: Class 10|10-12-2020|  
 |[read 11](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-11)|Read: Class 11|13-12-2020|  
-
+|[read 12](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-21)|Read: Class 12|14-12-2020|  
 
