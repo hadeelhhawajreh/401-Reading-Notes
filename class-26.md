@@ -3,9 +3,9 @@
 
 + **Django is a free, open source framework, written in Python, where projects follow the Model-View-Template structure (usually shortened to MVT). Django emphasizes reusability of components as well as rapid development, as well as the principle of non-replication.**
 
-+ *Python is used in all aspects of this framework, such as settings, database models, etc. *
++ * Python is used in all aspects of this framework, such as settings, database models, etc. *
 
-+ *The most popular sites that use Django are: Pinterest, Instagram, Mozilla, The Washington Times, Disqus, National Geographic and many more. *
++ * The most popular sites that use Django are: Pinterest, Instagram, Mozilla, The Washington Times, Disqus, National Geographic and many more. *
 
 + **Django was developed in 2003 by programmers Adrian Holovaty and Simon Willson, who work for Lawrence Journal World, when they moved to Python to build applications. Django was launched in 2005 under a BSD license**
 
