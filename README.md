@@ -27,5 +27,6 @@
 |[read 15](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-15)|Read: Class 13|17-12-2020|  
 |[read 16](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-16)|Read: Class 16|20-12-2020| 
 |[read 26](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-26)|Read: Class 26|3-1-2021|  
+|[read 27](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-27)|Read: Class 27|4-1-2021|  
 
 
