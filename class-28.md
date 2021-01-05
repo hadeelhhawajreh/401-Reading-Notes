@@ -28,6 +28,7 @@ BooleanField, CharField, ChoiceField, TypedChoiceField, DateField, DateTimeField
 
 + label: The label to use when rendering the field in HTML. If a label is not specified, Django will create one from the field name by capitalizing the first letter and replacing underscores with spaces (e.g. Renewal date).
 
+
 + label_suffix: By default, a colon is displayed after the label (e.g. Renewal date:). This argument allows you to specify a different suffix containing other character(s).
 initial: The initial value for the field when the form is displayed.
 
@@ -42,3 +43,29 @@ initial: The initial value for the field when the form is displayed.
 + localize: Enables the localization of form data input (see link for more information).
 
 + disabled: The field is displayed but its value cannot be edited if this is True. The default is False.
+
+### Update your forms.py file so it looks like this:
+```python
+import datetime
+
+from django import forms
+from django.core.exceptions import ValidationError
+from django.utils.translation import ugettext_lazy as _
+
+class RenewBookForm(forms.Form):
+    renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+
+    def clean_renewal_date(self):
+        data = self.cleaned_data['renewal_date']
+
+        # Check if a date is not in the past.
+        if data < datetime.date.today():
+            raise ValidationError(_('Invalid date - renewal in past'))
+
+        # Check if a date is in the allowed range (+4 weeks from today).
+        if data > datetime.date.today() + datetime.timedelta(weeks=4):
+            raise ValidationError(_('Invalid date - renewal more than 4 weeks ahead'))
+
+        # Remember to always return the cleaned data.
+        return data
+```
