@@ -28,3 +28,39 @@ A hashtable traditionally is created from an array. I always like the size 1024.
   Use modulo to get the remainder of the result, when divided by the total size of the array.
   Insert into the array at that index.
 
+Hashing is implemented in two steps:
+
+An element is converted into an integer by using a hash function. This element can be used as an index to store the original element, which falls into the hash table.
+The element is stored in the hash table where it can be quickly retrieved using hashed key.
+
+hash = hashfunc(key)
+index = hash % array_size
+
+In this method, the hash is independent of the array size and it is then reduced to an index (a number between 0 and array_size − 1) by using the modulo operator (%).
+
+Hash function
+A hash function is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size, which falls into the hash table. The values returned by a hash function are called hash values, hash codes, hash sums, or simply hashes.
+
+To achieve a good hashing mechanism, It is important to have a good hash function with the following basic requirements:
+
+Easy to compute: It should be easy to compute and must not become an algorithm in itself.
+
+Uniform distribution: It should provide a uniform distribution across the hash table and should not result in clustering.
+
+Less collisions: Collisions occur when pairs of elements are mapped to the same hash value. These should be avoided.
+
+Note: Irrespective of how good a hash function is, collisions are bound to occur. Therefore, to maintain the performance of a hash table, it is important to manage collisions through various collision resolution techniques.
+
+Need for a good hash function
+
+Let us understand the need for a good hash function. Assume that you have to store strings in the hash table by using the hashing technique {“abcdef”, “bcdefa”, “cdefab” , “defabc” }.
+
+To compute the index for storing the strings, use a hash function that states the following:
+
+The index for a specific string will be equal to the sum of the ASCII values of the characters modulo 599.
+
+As 599 is a prime number, it will reduce the possibility of indexing different strings (collisions). It is recommended that you use prime numbers in case of modulo. The ASCII values of a, b, c, d, e, and f are 97, 98, 99, 100, 101, and 102 respectively. Since all the strings contain the same characters with different permutations, the sum will 599.
+
+The hash function will compute the same index for all the strings and the strings will be stored in the hash table in the following format. As the index of all the strings is the same, you can create a list on that index and insert all the strings in that list.
+
+![img](https://he-s3.s3.amazonaws.com/media/uploads/dda3e36.jpg)
