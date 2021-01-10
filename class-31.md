@@ -20,3 +20,6 @@ A Dockerfile is the recipe for a cake
 An image is a snapshot of the recipe at a given time
 A docker-compose.yml says how to make the cake
 And the container is the actual, baked cake
+
+
+Django REST Framework works alongside the Django web framework to create web APIs. We cannot build a web API with only Django Rest Framework; it always must be added to a project after Django itself has been installed and configured.
