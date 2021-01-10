@@ -1,1 +1,2 @@
 
+## Readings: Permissions & Postgresql
