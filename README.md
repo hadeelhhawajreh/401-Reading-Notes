@@ -33,6 +33,9 @@
 |[read 27](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-27)|Read: Class 27|4-1-2021|  
 |[read 28](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-28)|Read: Class 28|5-1-2021| 
 |[read 29](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-29)|Read: Class 29|6-1-2021|  
-|[read 30](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-30)|Read: Class 30|7-1-2021|  
+|[read 30](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-30)|Read: Class 30|7-1-2021|
+|[read 31](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-31)|Read: Class 31|9-1-2021|  
+|[read 32](https://hadeelhhawajreh.github.io/401-Reading-Notes/class-32)|Read: Class 32|10-1-2021|  
+
 
 
