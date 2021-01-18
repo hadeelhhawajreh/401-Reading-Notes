@@ -1,4 +1,12 @@
-The most basic conditional rendering logic in React is done with a single if statement. Imagine you don’t want to render something in your React component, because it doesn’t have the necessary React props available. For instance, a List component in React shouldn’t render the list HTML elements in a view if there is no list of items in the first place. You can use a plain JavaScript if statement to return earlier
+The most basic conditional rendering logic in React is done with a single if statement. 
+
+React is, in our opinion, the premier way to build big, fast Web apps with JavaScript. It has scaled very well for us at Facebook and Instagram.
+
+One of the many great parts of React is how it makes you think about apps as you build them. In this document, we’ll walk you through the thought process of building a searchable product data table using React. 
+
+
+### Lists and Keys
+
 ```javascript
 
 const users = [
