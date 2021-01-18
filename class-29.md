@@ -51,7 +51,7 @@ admin.site.register(CustomUser, CustomUserAdmin)
 
 ```
 
-```python
+```
 <!DOCTYPE html>
 <html>
 <head>
