@@ -23,3 +23,20 @@ Built-in CSS and Sass support, and support for any CSS-in-JS library
 Development environment with Fast Refresh support
 API routes to build API endpoints with Serverless Functions
 Fully extendable
+
+
+**Basic CSS example
+Next.js has built-in support for CSS Modules allowing you to write scoped CSS by automatically creating a unique class name. CSS Module files can be imported anywhere in your application and you don't have to worry about collisions.**
+
+Deploy your own
+Deploy the example using Vercel:
+
+Deploy with Vercel
+
+How to use
+Execute create-next-app with npm or Yarn to bootstrap the example:
+```javascript
+npx create-next-app --example basic-css basic-css-app
+# or
+yarn create next-app --example basic-css basic-css-app
+```
