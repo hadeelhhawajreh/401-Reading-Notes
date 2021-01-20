@@ -24,7 +24,19 @@ Development environment with Fast Refresh support
 API routes to build API endpoints with Serverless Functions
 Fully extendable
 
+Setup
+First, let’s make sure that your development environment is ready.
 
+If you don’t have Node.js installed, install it from here. You’ll need Node.js version 10.13 or later.
+You’ll be using your own text editor and terminal app for this tutorial.
+If you are on Windows, we recommend downloading Git for Windows and use Git Bash that comes with it, which supports the UNIX-specific commands in this tutorial. Windows Subsystem for Linux (WSL) is another option.
+
+Create a Next.js app
+To create a Next.js app, open your terminal, cd into the directory you’d like to create the app in, and run the following command:
+
+```javascript
+npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-st
+```
 **Basic CSS example
 Next.js has built-in support for CSS Modules allowing you to write scoped CSS by automatically creating a unique class name. CSS Module files can be imported anywhere in your application and you don't have to worry about collisions.**
 
